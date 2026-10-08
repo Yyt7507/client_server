@@ -1,0 +1,62 @@
+# === C++ 编译产物 ===
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.app
+*.out
+
+# === Qt 构建系统自动生成的文件 ===
+# 由 moc（元对象编译器）生成
+moc_*.cpp
+moc_*.h
+*.moc
+
+# 由 uic（界面编译器）生成
+ui_*.h
+
+# 由 rcc（资源编译器）生成
+qrc_*.cpp
+
+# qmake 缓存和临时文件
+.qmake.cache
+.qmake.stash
+.qmake.vars
+*.prl
+
+# 翻译和调试相关
+*.qm
+*.qmlc
+*.jsc
+
+# === Qt Creator / IDE 本地配置 ===
+# 这些文件包含你本机的路径和设置，不应提交
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.qmlproject.user
+*.qmlproject.user.*
+CMakeLists.txt.user*
+*.autosave
+
+# === 构建输出目录 ===
+# 建议你在 Qt Creator 中把构建目录设为项目下的 build/，然后忽略它
+build/
+build-*/
+debug/
+release/
+Debug/
+Release/
+
+# === 操作系统 / 编辑器临时文件 ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
